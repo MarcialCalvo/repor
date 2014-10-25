@@ -40,21 +40,21 @@ public class UserLocalServiceWrapperImpl extends UserLocalServiceWrapper {
 	*/
 	public User addUser(User user)
 		throws SystemException {
-		System.out.println("HOhOOLA");
+		System.out.println("addUser");
 		return super.addUser(user);
 	}
 	
 	public User createUser(long id){
-		System.out.println("VA A CREAR EL ID DEL USUARIO");
+		System.out.println("userId");
 		return super.createUser(id);
 	}
 	
 	public User deleteUser(long userId) throws PortalException, SystemException {
-		System.out.println("Borra usuario metodo A");
+		System.out.println("A");
 		return super.deleteUser(userId);
 	}
 	public User deleteUser(User user) throws PortalException, SystemException {
-		System.out.println("Borra usuario metodo B");
+		System.out.println("B");
 		return super.deleteUser(user);
 	}
 	
