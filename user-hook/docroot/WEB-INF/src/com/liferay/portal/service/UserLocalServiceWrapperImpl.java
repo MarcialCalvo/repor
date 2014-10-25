@@ -40,7 +40,7 @@ public class UserLocalServiceWrapperImpl extends UserLocalServiceWrapper {
 	*/
 	public User addUser(User user)
 		throws SystemException {
-		System.out.println("HOOOLA");
+		System.out.println("HOhOOLA");
 		return super.addUser(user);
 	}
 	
